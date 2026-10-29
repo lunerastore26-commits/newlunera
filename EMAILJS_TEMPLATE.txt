@@ -1,0 +1,18 @@
+EmailJS service: service_26ob5sw
+EmailJS template: e00x0gi
+Public key configured in checkout.html: rRuwYFo_icpYCBj6H
+
+Set recipient email to: {{to_email}}
+Suggested subject: New LUNÉRA order {{order_id}}
+
+New LUNÉRA order: {{order_id}}
+Customer: {{customer_name}}
+Phone: {{customer_phone}}
+Customer email: {{customer_email}}
+Delivery address: {{delivery_address}}
+Items:
+{{order_details}}
+Order total: {{order_total}}
+Customer notes: {{customer_notes}}
+
+Make sure the EmailJS account/service and template are active. Send a test email in EmailJS, then test through checkout. Do not rely on a successful on-page order message alone to prove email delivery.
